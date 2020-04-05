@@ -1,0 +1,23 @@
+{
+  "name": "fanyi-cli",
+  "version": "0.0.2",
+  "main": "dist/main.js",
+  "bin": {
+    "f": "dist/cli.js"
+  },
+  "files": [
+    "dist/**/*.js"
+  ],
+  "scripts": {
+    "start": "ts-node-dev src/main.ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/md5": "^2.1.33",
+    "@types/node": "^13.11.0"
+  }
+}
