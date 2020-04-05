@@ -4,9 +4,9 @@
 
 ## 用法
 
-1. 安装：npm install fanyi-cli -g
+安装：npm install fanyi-cli -g
 
-2. 使用：
+使用：
 
 f hello
 
